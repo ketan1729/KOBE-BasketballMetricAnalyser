@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>KOBE</title>
+
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <ul class="horizontal">
+            <li><a class="active" href="javascript:void(0)">KOBE</a></li>
+            <li class="rightli" style="float:right"><a id="theme">Theme</a></li>
+            <li class="rightli" style="float:right"><a data-toggle="modal" data-target="#myModal">Devs</a></li>
+            <li class="rightli" style="float:right"><a id="teams">Teams</a></li>
+        </ul>
+    </div>
+    <div class="card">
+        <div class="card-header pb-0" id="header">Actual v/s Expected</div>
+        <div class="card-body">
+            <div id="canvas" style="width: 50%; height: 80%;float: left;"></div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="../static/js/main.js"></script>
+    <script src="../static/js/script.js"></script>
+</body>
+
+</html>
